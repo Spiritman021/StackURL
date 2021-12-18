@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mediumBlack"
+    tools:context=".AllLinks">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/linkColor"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="All your social links"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/tip"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_background"
+                    android:drawableLeft="@drawable/share"
+                    android:padding="10dp"
+                    android:text="SHARE"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:scaleX="-1"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/tip"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info"
+                android:textColor="@color/textColor"
+                android:drawableLeft="@drawable/tip"
+                android:fontFamily="@font/roboto"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/editbackground"
+                android:drawablePadding="12dp"
+                android:hint="No link available"
+                android:paddingStart="12dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="12dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="8dp"
+                android:textColor="@color/linkColor"
+                android:textSize="18dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

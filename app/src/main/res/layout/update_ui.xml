@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    app:cardCornerRadius="15dp"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="#5E2121"
+    app:cardElevation="999dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/cancel"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_gravity="right"
+            android:src="@drawable/cancel" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/update" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lilita_one"
+            android:text="Update your app"
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:text="To enjoy our newest features, please update your app" />
+
+        <LinearLayout
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Update Now"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:background="@drawable/update_background"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

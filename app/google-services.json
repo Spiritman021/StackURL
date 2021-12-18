@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "525954395704",
+    "project_id": "stack-url",
+    "storage_bucket": "stack-url.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525954395704:android:a2216af8d8c69686afc0cd",
+        "android_client_info": {
+          "package_name": "com.tworoot2.stackurl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525954395704-6s9ajv9qmfr4uik5e5349lh3p6a8chk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpM3HSw5FBDiF8IC2bHZuSQQeR7kSoKOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525954395704-6s9ajv9qmfr4uik5e5349lh3p6a8chk5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
